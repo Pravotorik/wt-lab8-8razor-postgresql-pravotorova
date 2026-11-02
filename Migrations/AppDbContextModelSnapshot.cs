@@ -75,7 +75,7 @@ namespace wt_lab8_8razor_postgresql_pravotorova.Migrations
                         new
                         {
                             Id = 1,
-                            AvatarUrl = "",
+                            AvatarUrl = "https://i.pravatar.cc/150?img=47",
                             Country = "Беларусь",
                             Email = "anna@mail.com",
                             FullName = "Анна Смирнова",
@@ -84,11 +84,20 @@ namespace wt_lab8_8razor_postgresql_pravotorova.Migrations
                         new
                         {
                             Id = 2,
-                            AvatarUrl = "",
+                            AvatarUrl = "https://i.pravatar.cc/150?img=12",
                             Country = "Россия",
                             Email = "ivan@mail.com",
                             FullName = "Иван Петров",
                             Phone = "+375 29 444-55-66"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            AvatarUrl = "https://i.pravatar.cc/150?img=32",
+                            Country = "Польша",
+                            Email = "maria@mail.com",
+                            FullName = "Мария Ковалёва",
+                            Phone = "+375 29 777-88-99"
                         });
                 });
 
