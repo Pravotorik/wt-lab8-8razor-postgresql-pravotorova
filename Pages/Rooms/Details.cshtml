@@ -37,10 +37,11 @@
                 <div class="detail-actions">
                     <a asp-page="/Rooms/Index" class="btn btn-outline">← Назад</a>
                     <a asp-page="/Rooms/Edit" asp-route-id="@Model.Room.Id" class="btn btn-primary">Редактировать</a>
-                    <form method="post" asp-page-handler="Delete" asp-route-id="@Model.Room.Id"
-                          onsubmit="return confirm('Удалить номер?');" style="display:inline">
-                        <button type="submit" class="btn btn-danger">Удалить</button>
-                    </form>
+                    @*<form method="post" asp-page-handler="Delete" asp-route-id="@Model.Room.Id"
+              onsubmit="return confirm('Удалить номер?');" style="display:inline">
+            <button type="submit" class="btn btn-danger">Удалить</button>
+        </form>*@
+                    <a asp-page="./Delete" asp-route-id="@Model.Room.Id" class="btn btn-danger">Удалить</a>
                 </div>
             </div>
         </div>

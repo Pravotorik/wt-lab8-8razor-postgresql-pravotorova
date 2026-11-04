@@ -1,0 +1,31 @@
+﻿@page
+@model wt_lab8_8razor_postgresql_pravotorova.Pages.Rooms.DeleteModel
+@{
+    ViewData["Title"] = "Удаление номера";
+}
+
+<div class="container page-container">
+    <div class="form-wrap">
+        <h1>Удаление</h1>
+        <p class="form-sub">Вы уверены, что хотите удалить этот номер?</p>
+
+        <div class="detail-info mb-4">
+            <div class="detail-info__item">
+                <div class="detail-info__label">Номер</div>
+                <div class="detail-info__value">@Model.Room.Number</div>
+            </div>
+            <div class="detail-info__item">
+                <div class="detail-info__label">Категория</div>
+                <div class="detail-info__value">@Model.Room.Category</div>
+            </div>
+        </div>
+
+        <form method="post">
+            <input type="hidden" asp-for="Room.Id" />
+            <div class="form-actions">
+                <a asp-page="./Index" class="btn btn-outline">Отмена</a>
+                <button type="submit" class="btn btn-danger">Да, удалить</button>
+            </div>
+        </form>
+    </div>
+</div>

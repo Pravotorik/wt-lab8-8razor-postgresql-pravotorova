@@ -1,12 +1,12 @@
-:root {
-    /* Палитра с картинки */
+п»ї:root {
+    /* РџР°Р»РёС‚СЂР° СЃ РєР°СЂС‚РёРЅРєРё */
     --dolce-pink: #FADADD;
     --bougie-blossom: #F78CA8;
     --miami-magenta: #E91E63;
     --peach-sorbet: #FFD1B6;
     --sunlit: #FFE08A;
     --sea-mist: #A7D8D8;
-    /* Производные */
+    /* РџСЂРѕРёР·РІРѕРґРЅС‹Рµ */
     --magenta-dark: #ad0f4a;
     --magenta-soft: rgba(233, 30, 99, 0.08);
     --blossom-soft: rgba(247, 140, 168, 0.15);
@@ -213,7 +213,7 @@ a {
     margin: 0 auto;
 }
 
-/* Центрируем бейдж */
+/* Р¦РµРЅС‚СЂРёСЂСѓРµРј Р±РµР№РґР¶ */
 .hero-badge-wrap {
     display: flex;
     justify-content: center;
@@ -596,7 +596,7 @@ a {
     flex-wrap: wrap;
 }
 
-/* ===== Поисковая строка ===== */
+/* ===== РџРѕРёСЃРєРѕРІР°СЏ СЃС‚СЂРѕРєР° ===== */
 .search-form {
     display: flex;
     max-width: 600px;
